@@ -35,7 +35,6 @@ int main()
 			cout << "OH you'll see a fuckin face!" << endl;
 			cout << "0) Yeah, I think I'm ready to puss out now, but this was fun while it lasted" << endl;
 			cout << "1) Are we talking a Sinister face or a Ron Jeremy OHH face??" << endl;
-			int input;
 			cin >> input;
 			if (input == 0)
 			{
@@ -46,7 +45,6 @@ int main()
 				cout << "I mean both seem pretty cool but Ron's busy and Baghul is to at a local day care" << endl;
 				cout << "0) Should we do something about the Baghul thing...?" << endl;
 				cout << "1) Busy with what? Taking care of that denim salami?" << endl;
-				int input;
 				cin >> input;
 				if (input == 0)
 				{
