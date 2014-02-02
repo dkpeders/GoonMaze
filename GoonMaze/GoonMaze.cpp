@@ -39,7 +39,7 @@ int main()
 			}
 			else if (input == 1)
 			{
-				cout <<
+				cout << "I mean both seem pretty cool" << endl;
 			}
 		}
 	}
