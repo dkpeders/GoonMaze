@@ -11,7 +11,7 @@ int main()
 	cin >> input;
 	if (input == 0)
 	{
-		cout << ""; //return for ending possibly create an alternate ending
+		cout << "Nice try you big fat poon sack.  You are headed right for the bad stuff." << endl;
 	}
 	else if (input == 1)
 	{
@@ -28,6 +28,9 @@ int main()
 			if (input == 0)
 			{
 				cout << "Well he did almost kill Bob Barker" << endl;
+				cout << "0) I would have punched that asshole in the face" << endl;
+				cout << "1) The price really is wrong, bitch" << endl;
+				cin >> input;
 			}
 		}
 		else if (input == 1)
@@ -48,11 +51,26 @@ int main()
 				cin >> input;
 				if (input == 0)
 				{
-					cout << "Yeah how well did that go for Ethan Hawke? Too bad he didn't actually die. I mean the purge was fucking awful" << endl;
+					cout << "Yeah how well did that go for Ethan Hawke? Too bad he didn't actually die." << endl;
+					cout << "He would have at least avoided the Purge." << endl;
+					cout << "0) I didn't mind it" << endl;
+					cout << "1) How dare you. He's my hero!!" << endl;
+					cin >> input;
+					if (input == 0 || 1)
+					{
+						cout << "Well all that matters is that we saw that shit as a family(:" << endl;
+					}
 				}
 				else if (input == 1)
 				{
 					cout << "Denim salami. I feel like no one will ever call it a penis again. What have we done!" << endl;
+					cout << "0) Who cares. Denim salami is fucking hilarious" << endl;
+					cout << "1) I do like salami....." << endl;
+					cin >> input;
+					if (input == 0 || 1)
+					{
+						cout << "TRUUUU" << endl;
+					}
 				}
 			}
 		}
@@ -60,5 +78,33 @@ int main()
 	else
 	{
 		cout << "invalid option";
+	}
+	{
+		cout << "Ok, no more time for jokes.  Goon HQ is in danger." << endl;
+		cout << "You are the only standing Goon, your brothers have fallen, pledge." << endl;
+		cout << "Can you save them before time runs out and the Bears take over HQ?!" << endl;
+		cout << "Enter 69 and save your brothers!" << endl;
+		cin >> input;
+		if (input == 69)
+		{
+			cout << "You approach the doors of Goon HQ." << endl;
+			cout << "You are a new pledge." << endl;
+			cout << "Where is everyone?" << endl;
+			cout << "0) Enter the front door" << endl;
+			cout << "1) Walk to the back door" << endl;
+			cin >> input;
+			if (input == 0)
+			{
+				cout << "" << endl; // solution for front door
+			}
+			else if (input == 1)
+			{
+				cout << "" << endl; // solution for back door
+			}
+		}
+		else
+		{
+			cout << "invalid option" << endl;
+		}
 	}
 }
