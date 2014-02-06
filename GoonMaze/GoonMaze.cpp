@@ -156,9 +156,21 @@ int main()
 						{
 							cout << "You and Rippin enter the building" << endl;
 							cout << "The two of you come across a dilemma" << endl;
-							cout << "0) " << endl; // think of progression
-							cout << "1) " << endl; // think of progression
+							cout << "0) Rush upstairs" << endl; 
+							cout << "1) Start a game of magic to settle down" << endl; 
 							cin >> input;
+							if (input == 0)
+							{
+								cout << "This is where all the rooms are." << endl;
+								cout << "Lucky the upstairs looks to be inshape." << endl;
+								cout << "0) Enter door on left" << endl;
+								cout << "1) Enter door on right" << endl;
+							}
+							else if (input == 1)
+							{
+								cout << "The game comes to a halting end when there is a crashing sound" << endl;
+								// left off here
+							}
 						}
 					}
 				}
