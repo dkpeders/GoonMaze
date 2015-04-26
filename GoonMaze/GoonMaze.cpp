@@ -175,6 +175,7 @@ int main()
 					}
 				}
 			}
+			//test
 			else if (input == 1)
 			{
 				cout << "You reach the back door to see that it has been kicked open" << endl;
